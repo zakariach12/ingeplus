@@ -1,0 +1,13 @@
+SITE WEB INGEPLUS — MISE EN LIGNE
+==================================
+
+1. Copier tout le contenu du dossier "site/" à la racine de l'hébergement (public_html).
+2. Copier le dossier "images/" du site actuel (logo.png, casa.png, rsept.png, logos clients...)
+   à côté de index.html  ->  public_html/images/
+   (Tant que ce dossier n'est pas copié, les images sont chargées depuis www.ingeplus.ma.)
+3. Le formulaire de contact utilise contact.php (hébergement PHP requis).
+   Les demandes arrivent sur contact@ingeplus.ma. Modifier $TO dans contact.php si besoin.
+4. Compléter mentions-legales.html (adresse, RC, ICE, IF, hébergeur).
+5. Déclarer https://www.ingeplus.ma/sitemap.xml dans Google Search Console.
+
+Modifier les textes : éditer src/build.py puis lancer  python3 build.py
